@@ -1,4 +1,4 @@
-:root{
+:root {
   background-image: url("imagenes/galaxia-en-el-espacio-4052.jpg");
   margin: 0px;
   padding: 0px;
@@ -6,28 +6,28 @@
 }
 
 .container {
-margin: 20px;
-padding: 20px;
-font: 100px;
-color: white;
-border: 10px 10px;
-box-sizing: 40px 50px;
-flex-direction: 200px;
-margin: 40px 40px 40px 40px;
-padding-right: 20px ;
-border-radius: 20px;
-box-shadow: 1px 4px 20px 0;
-border-radius: 70px;
-background-image: radial-gradient(circle, #00d4ff 0%, #5c0067  100%);
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15pt;
-fill-opacity: 100%;
-
+  margin: 20px;
+  padding: 20px;
+  font: 100px;
+  color: white;
+  border: 10px 10px;
+  box-sizing: 40px 50px;
+  flex-direction: 200px;
+  margin: 40px 40px 40px 40px;
+  padding-right: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 20px 0;
+  border-radius: 70px;
+  background-image: radial-gradient(circle, #00d4ff 0%, #5c0067 100%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  fill-opacity: 100%;
+  
 }
 
-.banner{
-  padding:20px;
+.banner {
+  padding: 20px;
   margin: 30px;
   box-shadow: 1px 4px 50px 0;
   border-radius: 30px;
@@ -37,13 +37,13 @@ fill-opacity: 100%;
   flex-direction: column;
 }
 
-.img.container{
+.img.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  
-  }
+
+}
 
 
 .row {
@@ -59,21 +59,20 @@ fill-opacity: 100%;
   font-family: arial;
   border-radius: 70px;
   border-start-end-radius: 15px;
-   
+
 }
 
-footer{
+footer {
   height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   font-family: Arial;
-  font-size: 25px;
+  font-size: 30px;
 }
 
-@media (max-width: 600px) 
-{
+@media (max-width: 600px) {
   .column {
     flex: 100%;
   }
@@ -83,10 +82,10 @@ footer{
   display: flex;
   padding: 10px;
   height: 50px;
- font: 20px solid white;
- background-image: radial-gradient(circle, #00d4ff 0%, #5c0067  100%);
- font-family: Arial;
- }
+  font: 20px solid white;
+  background-image: radial-gradient(circle, #00d4ff 0%, #5c0067 100%);
+  font-family: Arial;
+}
 
 
 .navbar {
@@ -114,7 +113,7 @@ li {
 
 a {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 
@@ -125,7 +124,7 @@ a {
 
 
 .button-menu-toggle {
-  display: none ;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -141,14 +140,14 @@ a {
   .button-menu-toggle {
     display: block;
     background-color: white;
-    border:none;
+    border: none;
     border-radius: 50px;
     padding: 0 24px;
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
   }
- 
+
   .nav-links.nav-links-responsive {
     position: absolute;
     display: flex;
@@ -160,16 +159,20 @@ a {
     flex-direction: column;
     padding-top: 200px;
     align-items: center;
-    gap:70px;
+    gap: 70px;
     font-size: 40px;
   }
 }
 
-document.querySelector("button.button-menu-toggle")
-    .addEventListener ("click", function() {
-           document.querySelector(".nav-links").
-                      classList.toggle("nav-links-responsive")})
+content {
+  display: flex;
+  vertical-align: middle;
+  padding: 0 15px;
+}
 
-.img.container{
-flex-direction: column;
- }
+document.querySelector("button.button-menu-toggle") .addEventListener ("click", function() {
+    document.querySelector(".nav-links"). classList.toggle("nav-links-responsive")
+
+  }) .img.container {
+  flex-direction: column;
+}
